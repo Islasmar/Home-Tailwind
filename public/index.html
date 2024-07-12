@@ -16,7 +16,9 @@
         <div class="max-w[1400px] mx-auto flex items-center justify-between text-white">
 
             <!--Logo-->
-            <a class="text-2xl text-white" href="#">ADVENTURE <strong> Now</strong></a>
+            <a href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHaqEzp8mb2nH7vsDcIj6nyyZSfeRf-HzP6g&s" alt="" class="w-[75px] h-[100px] object-cover">
+            </a>
 
             <!--Links-->
             <div class="relative flex gap-6 items-center">
@@ -35,22 +37,19 @@
 
                 <!--Search Box-->
                 <div id="search-box" class="hidden absolute top-10 right-0">
-                    <div
-                     id="input-box"
-                     class="p-3 bg-white rounded-full opacity-0 -translate-y-10 transition duration-200">
-                    
-                     <input type="text"
-                     placeholder="Search..."
-                     class="focus:outline-none text-black" />
+                    <div id="input-box"
+                        class="p-3 bg-white rounded-full opacity-0 -translate-y-10 transition duration-200">
+
+                        <input type="text" placeholder="Search..." class="focus:outline-none text-black" />
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </header>
     <main>
         <section id="hero"
-            class="relative w-full h-screen bg-[url(https://media.staticontent.com/media/pictures/81958045-e763-44a1-a9ac-de85b9819b5e)] bg-black/50 bg-blend-multiply bg-center bg-cover bg-no-repeat flex items-center">
-        
+            class="relative w-full h-screen bg-[url(https://media.staticontent.com/media/pictures/81958045-e763-44a1-a9ac-de85b9819b5e)] bg-black/40 bg-blend-multiply bg-center bg-cover bg-no-repeat flex items-center">
+
             <!--Hero Content-->
             <div class="container max-w-[1200px] text-white p-8">
                 <h1 class="text-5xl font-light leading-tight tracking-wider mb-6">
@@ -62,7 +61,9 @@
                     <span class="text-sm uppercase text-gray-300 cursor-pointer">read more</span>
                 </div>
 
-                <a href="#" class="inline-block mt-6 py-3 px-6 bg-green-500 rounded-full text-sm font-bold uppercase tracking-widest hover:scale-110 active:scale-95 transition duration-150">get started</a>
+                <a href="#"
+                    class="inline-block mt-6 py-3 px-6 bg-green-500 rounded-full text-sm font-bold uppercase tracking-widest hover:scale-110 active:scale-95 transition duration-150">get
+                    started</a>
             </div>
 
             <!--Social Links-->
@@ -74,6 +75,22 @@
                 </div>
             </div>
 
+            <!--Testimonials-->
+            <div class="absolute bottom-4 w-full h-36 flex">
+                <!--Arrows-->
+                <div class="w-40 text-white flex items-center justify-center text-6xl">
+                    <ion-icon class="cursor-pointer hover:scale-110" name="chevron-back"></ion-icon>
+                    <ion-icon class="cursor-pointer hover:scale-110" name="chevron-forward"></ion-icon>
+                </div>
+
+                <!--Images-->
+                <div class="w-full h-full bg-gray-200 grid-cols-3 gap-4">
+                <!--Img1-->
+                <div class="flex items-center gap-4">
+                    <img src="https://img.freepik.com/psd-gratis/icono-3d-aplicacion-redes-sociales_23-2150049569.jpg" alt="" class="w-[100px] h-[100px] object-cover">
+                </div>
+                </div>
+            </div>
         </section>
     </main>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
