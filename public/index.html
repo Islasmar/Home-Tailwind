@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+    <title>TI HXA</title>
+</head>
+
+<body class="min-w-[300px] h-screen overflow-hidden">
+
+    <!--Navbar-->
+    <header class="absolute w-full p-6 z-10">
+        <div class="max-w[1400px] mx-auto flex items-center justify-between text-white">
+
+            <!--Logo-->
+            <a class="text-2xl text-white" href="#">ADVENTURE <strong> Now</strong></a>
+
+            <!--Links-->
+            <div class="relative flex gap-6 items-center">
+                <a href="#" class="text-white uppercase hover:text-orange-400">Home</a>
+
+                <a href="#" class="text-white uppercase hover:text-orange-400">Home</a>
+
+                <a href="#" class="text-white uppercase hover:text-orange-400">Stories</a>
+
+                <a href="#" class="text-white uppercase hover:text-orange-400">Contac</a>
+
+                <!--Searcgh Btn-->
+                <div id="search-btn" class="flex justify-center items-ce">
+                    <ion-icon name="search-outline" class="text-xl cursor-pointer hover:text-orange-400"></ion-icon>
+                </div>
+
+                <!--Search Box-->
+                <div id="search-box" class="hidden absolute top-10 right-0">
+                    <div
+                     id="input-box"
+                     class="p-3 bg-white rounded-full opacity-0 -translate-y-10 transition duration-200">
+                    
+                     <input type="text"
+                     placeholder="Search..."
+                     class="focus:outline-none text-black" />
+                </div>
+            </div>
+        </div>
+    </div>
+    </header>
+    <main>
+        <section id="hero"
+            class="relative w-full h-screen bg-[url(https://media.staticontent.com/media/pictures/81958045-e763-44a1-a9ac-de85b9819b5e)] bg-black/50 bg-blend-multiply bg-center bg-cover bg-no-repeat">
+            <!--Hero Content-->
+            <div class="container"></div>
+        </section>
+    </main>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
